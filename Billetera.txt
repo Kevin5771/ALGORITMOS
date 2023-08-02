@@ -3,7 +3,7 @@ Algoritmo Comprar
 	
 	Escribir "Ingrese el precio del producto:"
 	Leer precio
-	
+	// Proceso de pagos
 	Escribir "Ingrese el número de pagos (1 o 3):"
 	Leer pago
 	
