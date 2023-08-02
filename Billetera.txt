@@ -1,5 +1,5 @@
 Algoritmo Comprar 
-	Definir precio, credito, pago Como Real
+	Definir precio, credito, pago Como Real, 
 	
 	Escribir "Ingrese el precio del producto:"
 	Leer precio
@@ -20,9 +20,11 @@ Algoritmo Comprar
 				Escribir "No tiene suficiente crédito para comprar el producto."
 			Sino
 				Escribir "Compra realizada."
+				credito = credito - precio;
 			FinSi
 		Sino
-			Escribir "Número de pagos inválido."
+			Escribir "Número de pagos inválido.";
+			credito= credito;
 		FinSi
-		
+
 FinAlgoritmo
