@@ -2,6 +2,7 @@ Algoritmo Comprar
 	Definir precio, credito, pago Como Real, 
 	
 	Escribir "Ingrese el precio del producto:"
+	//Precio introducido por teclado.
 	Leer precio
 	// Proceso de pagos
 	Escribir "Ingrese el número de pagos (1 o 3):"
@@ -21,6 +22,7 @@ Algoritmo Comprar
 			Sino
 				Escribir "Compra realizada."
 				credito = credito - precio;
+
 			FinSi
 		Sino
 			Escribir "Número de pagos inválido.";
