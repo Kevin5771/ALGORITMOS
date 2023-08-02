@@ -1,0 +1,28 @@
+Algoritmo Comprar 
+	Definir precio, credito, pago Como Real
+	
+	Escribir "Ingrese el precio del producto:"
+	Leer precio
+	
+	Escribir "Ingrese el número de pagos (1 o 3):"
+	Leer pago
+	
+	Si Pago = 1 Entonces
+		credito <- 1000
+		Si precio > credito Entonces
+			Escribir "No tiene suficiente crédito para comprar el producto."
+		Sino
+			Escribir "Compra realizada."
+		FinSi
+	Sino Si pago = 3 Entonces
+			credito <- 3000
+			Si precio > credito Entonces
+				Escribir "No tiene suficiente crédito para comprar el producto."
+			Sino
+				Escribir "Compra realizada."
+			FinSi
+		Sino
+			Escribir "Número de pagos inválido."
+		FinSi
+		
+FinAlgoritmo
